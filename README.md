@@ -27,6 +27,8 @@ Follow These Steps if You Use This Script;
 
 9 - Update sitemap.xml
 
+10 - Change website link from (.htaccess, 404.php, footer.php, gizlilik.php, hakkimizda.php)
+
 What is Properties of Script?
 - This system registering ip (from user), url (clicked website), tiklananid (clicked ads. id (for see clicked ads in "verilenreklamlar")), fiyat (pay for clicks), gecerlilik (approval status), saat (clicked hour), tarih (clicked date), sehir (clicked city), ulke (clicked country) to database after click.
 - This system getting ads from users (from "reklamveren" ("hesapturu"=1 (you can see it in "users" (in db)) account)) and u can see information about this ads in "verilenreklamlar". 

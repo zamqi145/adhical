@@ -1,0 +1,139 @@
+/* Genel Tanımlama Başlangıç */
+
+ul {
+	margin-top: 20px;
+	padding-left: 0px;
+}
+
+ul>li {
+	border-bottom: solid 1px white;
+	list-style-type: none;
+	padding: 10px;
+}
+
+a, a:hover, a:active {
+	text-decoration: none !important;
+	color: white !important;
+}
+
+a:hover {
+	color: greenyellow !important;
+}
+
+.col-md-3, .col-md-9 {
+	text-align: center;
+}
+
+/* Genel Tanımlama Bitiş */
+
+/* Sidebar Kodu Başlangıç */
+
+#sidebar {
+	padding-top: 10px;
+	width: 100%; 
+	height: 100%;
+	left: 0;
+	background-color: #0c1a1e;
+	font-family: monospace;
+	font-size: 18px;
+}
+
+.sidebar {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#sidebar > ul > li > a.selected {
+	color: red !important;
+}
+
+/* Sidebar Kodu Bitiş */
+
+/* Genel Kodu Başlangıç */
+
+
+/* Genel Kodu Bitiş */
+
+/* Eklenen Siteler Başlangıç */
+
+.siteler-div {
+	border: solid 1px grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: black !important;
+	margin-top: 10px;
+}
+
+/* Eklenen Siteler Bitiş */
+
+/* Mobil Uyum İçin Boyutlandırma Başlangıç */
+
+/* Telefon İçin Başlangıç */
+
+@media screen and (max-width: 999px) {
+	#sidebar {
+		height: auto;
+	}
+}
+
+/* Telefon için Bitiş */
+
+/* Tablet İçin */
+
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+	#sidebar {
+		height: auto;
+	}
+}
+
+/* Tablet İçin Bitiş */
+
+/* Mobil Uyum İçin Boyutlandırma Bitiş */
+
+/* Bugün Kodu Başlangıç */
+
+.bugun-1 {
+	border: solid 1px; 
+	min-height: 100px; 
+	padding-top: 15%; 
+	background-color: #fff;
+}
+.bugun-1-2 {
+	background-color: #5bff68 !important;
+}
+.bugun-2 {
+	border: solid 1px; 
+	min-height: 100px; 
+	padding-top: 16%; 
+	background-color: #fff;
+}
+.bugun-2-2 {
+	background-color: lightblue !important;
+}
+.bugun-3 {
+	border: solid 1px; 
+	min-height: 100px; 
+	padding-top: 18%; 
+	background-color: #fff;
+}
+.bugun-3-2 {
+	background-color: #5dfff0 !important;
+}
+.bugun-4 {
+	border: solid 1px; 
+	min-height: 100px; 
+	padding-top: 18%; 
+	background-color: #fff;
+}
+.bugun-4-2 {
+	background-color: #cacaca !important;
+}
+.bugun-5 {
+	border: solid 1px; 
+	min-height: 100px; 
+	padding-top: 4%;
+}
+.bugun-5-2 {
+	background-color: orange;
+}
+/* Bugün Kodu Bitiş */

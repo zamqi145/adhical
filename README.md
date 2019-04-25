@@ -88,5 +88,5 @@ aonay = admin approval (0 = admin disapproved, 1 = admin approved)
 
 vtarih = Upload date
 
-sontarih = finish day (Don't working)
+sontarih = finish day (Doesn't working)
 

@@ -29,7 +29,7 @@ Follow These Steps if You Use This Script;
 
 10 - Change website link from (.htaccess, 404.php, footer.php, gizlilik.php, hakkimizda.php, header.php, iletisim.php, index.php, 300-250.php, 300-600.php, 320-100.php, 336-280.php, 728-90.php, 300-250.js, 300-600.js, 320-100.js, 336-280.js, 728-90.js, )
 
-11 - Update your ad code in 300-250.php, 300-600.php, 320-100.php, 336-280.php, 728-90.php, 300-250.js, 300-600.js, 320-100.js, 336-280.js, 728-90.js and update your advertisement code in index.php (<div id="Adhical300-600"></div> and <div id="Adhical728-90"></div>)
+11 - Update your ad code in 300-250.php, 300-600.php, 320-100.php, 336-280.php, 728-90.php, 300-250.js, 300-600.js, 320-100.js, 336-280.js, 728-90.js and update your advertisement code in index.php (</*div id="Adhical300-600"></div> and <div id="Adhical728-90"></div>*/)
 
 What is Properties of Script?
 - This system registering ip (from user), url (clicked website), tiklananid (clicked ads. id (for see clicked ads in "verilenreklamlar")), fiyat (pay for clicks), gecerlilik (approval status), saat (clicked hour), tarih (clicked date), sehir (clicked city), ulke (clicked country) to database after click.

@@ -5,7 +5,7 @@ What is The Purpose?
 - You can think like Google Ads and Google Adsense. This system doesn't using api from another advertisement system.
 
 Using Which Software Languages?
-- We used HTML5, CSS3, JS, Bootstrap3 and PHP5.6
+- We used HTML5, CSS3, JS, AJAX, Bootstrap3 and PHP5.6
 
 Follow These Steps if You Use This Script;
 
@@ -32,8 +32,11 @@ Follow These Steps if You Use This Script;
 11 - Update your ad code in 300-250.php, 300-600.php, 320-100.php, 336-280.php, 728-90.php, 300-250.js, 300-600.js, 320-100.js, 336-280.js, 728-90.js and update your advertisement code in index.php (\<div id="Adhical300-600"><\/div> and \<div id="Adhical728-90"><\/div>)
 
 What is Properties of Script?
+
 - This system registering ip (from user), url (clicked website), tiklananid (clicked ads. id (for see clicked ads in "verilenreklamlar")), fiyat (pay for clicks), gecerlilik (approval status), saat (clicked hour), tarih (clicked date), sehir (clicked city), ulke (clicked country) to database after click.
-- This system getting ads from users (from "reklamveren" ("hesapturu"=1 (you can see it in "users" (in db)) account)) and u can see information about this ads in "verilenreklamlar". 
+
+- This system getting ads from users (from "reklamveren" ("hesapturu"=1 (you can see it in "users" (in db)) account)) and you can see information about this ads in "verilenreklamlar". 
+
 Explain about this;
 
 userid = userid,

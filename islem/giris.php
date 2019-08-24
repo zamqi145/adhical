@@ -58,21 +58,17 @@ if($_POST){
 			}
 			else {
 				echo "Hesap Türünüz Hatalı Lütfen Bizimle İletişime Geçin..";
-				header("refresh:2 url=../giris-yap");
 			}
  		}
  		else if($oku['onay']=='2'){
  			echo "<strong style='color:red'>Giriş işlemi hatalı. Bunun sebebi hesabınızın beklemeye alınmasıdır. Lütfen bu süreçte web sitenizden reklamları kaldırmayın. Tıklama ve görüntülenme ücretleriniz hesabınıza yüklenmeye devam eder sadece bunları göremezsiniz ve gelirinizi çekemezsiniz. Bu işlem bir haftadan uzun sürerse lütfen bizimle iletişime geçin.</strong>";
-			header("refresh:5 url=../giris-yap");
  		}
 		else{
 			echo "<strong style='color:red'>Giriş işlemi hatalı. Bunun sebebi hesabınızın banlanmasıdır.</strong>";
-			header("refresh:2 url=../giris-yap");
 		}
 	}	
 	else{
 		echo "<strong style='color:red'>Giriş işlemi başarısız.</strong>";
-		header("refresh:2 url=../giris-yap");
 	}
 }
 ?>
